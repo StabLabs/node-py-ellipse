@@ -1,0 +1,15 @@
+{
+  "name": "node-vbs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@el3um4s/run-vbs": "^1.1.2",
+    "express": "^4.18.2"
+  }
+}
