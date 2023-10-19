@@ -65,5 +65,5 @@ class PyE3DataAccess(object):
     	return PumpEvents(time)
 if __name__ == '__main__':
 	pyE3DataAccess = PyE3DataAccess(server="localhost")
-	print(pyE3DataAccess.readvalue(pathname=sys.argv[1] + ".Value"))
+	print(pyE3DataAccess.readvalue(pathname=sys.argv[1]))
     ##print(pyE3DataAccess.readvalue(pathname="Dados." + sys.argv[1] + ".Value"))
